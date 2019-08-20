@@ -1276,6 +1276,26 @@
     lodash.unescape "4.0.1"
     semver "5.5.0"
 
+a-table@^1.4.18:
+  version "1.4.18"
+  resolved "https://registry.yarnpkg.com/a-table/-/a-table-1.4.18.tgz#0ea85319e763b3668d6d61cd3f050c09f563df4e"
+  integrity sha512-/xoTMgNWJi9iSo45JWOCdCwc/E1zAApG2G0QBxmsuP6VYhPxz5IGvhmzGSX10SD8zL/v5Q+0F6BSMdJAxmBn3g==
+  dependencies:
+    a-template "^0.5.1"
+    clone "^2.0.0"
+    custom-event-polyfill "^0.3.0"
+    deep-extend "^0.5.0"
+    zepto-browserify "^1.1.6-1"
+
+a-template@^0.5.1:
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/a-template/-/a-template-0.5.5.tgz#2eea6e4a2c148a0d3a5896e2324000724f777f90"
+  integrity sha512-Ny7NbjrHc4YQk2UwV4GtKh/9jbKPgUDvkW1Qsy+uu7BwZHpAiRbawaSLX6GbKIeUjSC6RgMf0DX4wfmZRfhgOg==
+  dependencies:
+    delegate "^3.1.2"
+    ie-array-find-polyfill "^1.1.0"
+    morphdom "^2.3.1"
+
 abab@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.0.tgz#aba0ab4c5eee2d4c79d3487d85450fb2376ebb0f"
@@ -2259,7 +2279,7 @@ clone@^1.0.2:
   resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
   integrity sha1-2jCcwmPfFZlMaIypAheco8fNfH4=
 
-clone@^2.1.1:
+clone@^2.0.0, clone@^2.1.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/clone/-/clone-2.1.2.tgz#1b7f4b9f591f1e8f83670401600345a02887435f"
   integrity sha1-G39Ln1kfHo+DZwQBYANFoCiHQ18=
@@ -2859,6 +2879,11 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
+custom-event-polyfill@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/custom-event-polyfill/-/custom-event-polyfill-0.3.0.tgz#99807839be62edb446b645832e0d80ead6fa1888"
+  integrity sha1-mYB4Ob5i7bRGtkWDLg2A6tb6GIg=
+
 damerau-levenshtein@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/damerau-levenshtein/-/damerau-levenshtein-1.0.5.tgz#780cf7144eb2e8dbd1c3bb83ae31100ccc31a414"
@@ -2936,6 +2961,11 @@ decode-uri-component@^0.2.0:
   resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
   integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
 
+deep-extend@^0.5.0:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.5.1.tgz#b894a9dd90d3023fbf1c55a394fb858eb2066f1f"
+  integrity sha512-N8vBdOa+DF7zkRrDCsaOXoCs/E2fJfx9B9MrKnnSiHNh4ws7eSys6YQE4KvT1cecKmOASYQBhbKjeuDD9lT81w==
+
 deep-extend@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.6.0.tgz#c4fa7c95404a17a9c3e8ca7e1537312b736330ac"
@@ -2986,6 +3016,11 @@ delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
+
+delegate@^3.1.2:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/delegate/-/delegate-3.2.0.tgz#b66b71c3158522e8ab5744f720d8ca0c2af59166"
+  integrity sha512-IofjkYBZaZivn0V8nnsMJGBr4jVLxHDheKSW88PyxS5QC4Vo9ZbZVvhzlSxY87fVq3STR6r+4cGepyHkcWOQSw==
 
 delegates@^1.0.0:
   version "1.0.0"
@@ -4331,6 +4366,11 @@ identity-obj-proxy@3.0.0:
   integrity sha1-lNK9qWCERT7zb7xarsN+D3nx/BQ=
   dependencies:
     harmony-reflect "^1.4.6"
+
+ie-array-find-polyfill@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/ie-array-find-polyfill/-/ie-array-find-polyfill-1.1.0.tgz#5078e533f026831da22bd7476513d9460d65a142"
+  integrity sha1-UHjlM/Amgx2iK9dHZRPZRg1loUI=
 
 ieee754@^1.1.4:
   version "1.1.13"
@@ -6110,6 +6150,11 @@ moment@^2.18.1, moment@^2.22.2:
   version "2.24.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
   integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
+
+morphdom@^2.3.1:
+  version "2.5.6"
+  resolved "https://registry.yarnpkg.com/morphdom/-/morphdom-2.5.6.tgz#85c59b36597a014d7107b09e0b836b3292086185"
+  integrity sha512-uw+fgVRCV7DK9EWJ87NeiFXTDdLklajJQNLHCAJStqTY/uwFpK5ormeU2PYSX5DDk+cI9dtFli/MHKd2wP/KGg==
 
 ms@2.0.0:
   version "2.0.0"
@@ -9606,6 +9651,11 @@ yargs@^8.0.2:
     which-module "^2.0.0"
     y18n "^3.2.1"
     yargs-parser "^7.0.0"
+
+zepto-browserify@^1.1.6-1:
+  version "1.1.6-1"
+  resolved "https://registry.yarnpkg.com/zepto-browserify/-/zepto-browserify-1.1.6-1.tgz#68cb7590bb1c66957a20a4639df2cd0377ee5a19"
+  integrity sha1-aMt1kLscZpV6IKRjnfLNA3fuWhk=
 
 zlib@^1.0.5:
   version "1.0.5"
