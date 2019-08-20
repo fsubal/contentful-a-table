@@ -1,0 +1,8 @@
+{
+  "id": "contentful-a-table",
+  "name": "contentful-a-table",
+  "srcdoc": "./build/index.html",
+  "fieldTypes": [
+    "Text"
+  ]
+}
