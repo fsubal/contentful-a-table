@@ -5,12 +5,6 @@
       {
         "useBuiltIns": false
       }
-    ],
-    [
-      "@babel/preset-react",
-      {
-        "useBuiltIns": true
-      }
     ]
   ],
   "plugins": [

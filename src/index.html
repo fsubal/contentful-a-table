@@ -2,6 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../node_modules/a-table/css/a-table.css" />
+    <link rel="stylesheet" type="text/css" href="../node_modules/a-table/fonts/a-table-icon.css" />
     <style>
       html,
       body,
@@ -13,10 +15,17 @@
         font: inherit;
         vertical-align: baseline;
       }
+      #root,
+      .a-table-container {
+        margin-bottom: 260px;
+      }
+      .hidden {
+        opacity: 0.5;
+      }
     </style>
   </head>
   <body>
-    <div id="root"></div>
+    <table id="root"></table>
     <script type="text/javascript" src="./index.ts"></script>
   </body>
 </html>
